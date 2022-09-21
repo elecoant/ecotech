@@ -1,0 +1,120 @@
+body {
+  background-color: #d4d4d4;
+  margin: 0%;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14pt;
+}
+
+header {
+  background-color: white;
+  padding: 20px 10%;
+}
+
+.nav-container {
+  background-color: #24b41f;
+  padding: 10px 10%;
+  overflow: hidden;
+}
+
+.nav-container a {
+  color: white;
+  text-decoration: none;
+  float: left;
+  padding: 0% 50px 0% 0%;
+}
+
+.nav-container a:hover {
+  color: #a5e00f;
+}
+
+main {
+  background-color: white;
+  margin: 20px 10%;
+  padding: 50px;
+  color: rgb(58, 58, 58);
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+}
+
+h2 {
+  font-weight: lighter;
+}
+
+section {
+  padding: 0% 2%;
+
+}
+
+p {
+  text-align: justify;
+  padding: 0% 2%;
+}
+
+.stats-container {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.stats {
+  background-color: #24b41f;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  display:inline-block;
+  padding: 10px;
+  margin: 0% 20px;
+  width: 100px;
+}
+
+.stats-figure {
+  font-size: 48pt;
+}
+
+.video-container {
+  text-align: center;
+}
+
+video {
+  border-radius: 10px;
+  border: 5px solid #24b41f;
+}
+
+.shop-container {
+  text-align: center;
+  margin-bottom: 1%;
+}
+
+.shop {
+  background-color: #24b41f;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+  border-radius: 10px;
+  display:inline-block;
+  padding: 10px;
+  margin: 0% 20px;
+  width: 100px;
+}
+
+.shop:hover {
+  background-color: #a5e00f;
+  cursor:not-allowed;
+}
+
+.shop img {
+  border-radius: 8px;
+  width: 100%;
+  object-fit: contain;
+}
+
+.shop-price {
+  font-size: 28pt;
+}
+
+.shop-price sup {
+  font-size: 12pt;
+}
+
+.note {
+  font-size: 8pt;
+  opacity: 50%;
+}
+

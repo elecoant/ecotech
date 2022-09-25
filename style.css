@@ -95,7 +95,7 @@ video {
 }
 
 .shop:hover {
-  animation: color_change 10s;
+  animation: color_change 2s;
   background-color: #a5e00f;
   cursor:not-allowed;
 }
